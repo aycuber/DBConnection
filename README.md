@@ -1,25 +1,70 @@
-# DBConnection
-Project Name: DBConnection
+# Getting Started with Create React App
 
-Application Description: Rowers in the morning have to check their phone for all aspects of what they should expect at practice: 
-What's the weather? 
-Wind conditions? Tide? 
-What location am I rowing at? 
-Lineups?
-This takes a lot of time to check all of these different platforms at 5 AM in the morning. This application approaches this time consuming problem by giving one platform where rowers can see all the information they need to be prepared for practice.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Features + Tools/Technologies: Weather API: Calls the API for weather at Briones Resevoir and Oakland Estuary. Tide API: Calls the API for the tide at the Oakland Estuary. Chatting platform: Allows the coaches and athletes to communicate locations, lineups, etc. - will need to implement a chatting feature and a database to store the messages. Also needs to implement roles: coxswain, rowers, coaches, Dave.
+## Available Scripts
 
-Timeline: 
-April 18: Implement Weather API for both locations
-April 19: Implement Tide API for the Oakland Estuary
-April 20: Implement chatting functionality
-April 21: Implement a database to store messages
-April 22: Implement a page that allows coaches to input lineups and allows athletes to view the lineups
+In the project directory, you can run:
 
-Brady Wojnovich and I will complete the work together in person for every feature - in-person
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

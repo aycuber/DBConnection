@@ -1,0 +1,136 @@
+/* src/App.css */
+
+/* Global & Layout */
+.app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #333;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #2c3e50;
+}
+.section {
+  margin-bottom: 2rem;
+}
+
+/* WEATHER CARDS (horizontal) */
+.weather-section {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.weather-card {
+  flex: 1;
+  background: #f0f8ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.weather-card h2 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: #1a5276;
+}
+.weather-desc {
+  text-transform: capitalize;
+  margin-bottom: 0.25rem;
+}
+.weather-temp {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #2874a6;
+}
+
+/* HOURLY FORECAST */
+.hourly-grid {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 80px;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+}
+.hour-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.hour-time {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+.hour-temp {
+  font-size: 1.1rem;
+}
+.hour-wind,
+.hour-pop {
+  font-size: 0.85rem;
+}
+
+/* TIDE */
+.tide-card {
+  background: #e8f8f5;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #117864;
+}
+
+/* CHAT */
+.chat-header {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.chat-header input,
+.chat-header select {
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  background: #fafafa;
+  border: 1px solid #eee;
+  border-radius: 0.3rem;
+}
+.message {
+  margin-bottom: 0.4rem;
+}
+.meta {
+  color: #555;
+  font-size: 0.85rem;
+}
+.chat-input {
+  display: flex;
+  gap: 0.5rem;
+}
+.chat-input input {
+  flex: 1;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 0.3rem;
+}
+.chat-input button {
+  padding: 0.4rem 0.8rem;
+  background: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+.chat-input button:hover {
+  background: #1f618d;
+}
