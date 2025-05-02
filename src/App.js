@@ -189,7 +189,7 @@ function App() {
         <h2>Tide</h2>
         {tide ? (
           <div className="tide-card">
-            Next tide at <strong>{tide.t}</strong> — {tide.v} ft
+            Tide — {tide.v} ft going out
           </div>
         ) : (
           <div>Loading tide data…</div>
